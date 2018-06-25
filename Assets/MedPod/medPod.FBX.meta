@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: a7b0f2bcc1b58764ba67df3791ce63ed
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: balckInside
+    100002: BaseLights
+    100004: Binaries
+    100006: BinaryLeft
+    100008: BinaryRight
+    100010: Box001
+    100012: Box003
+    100014: Box004
+    100016: Box005
+    100018: Box006
+    100020: Box007
+    100022: Box008
+    100024: Box009
+    100026: Box010
+    100028: Box011
+    100030: Box012
+    100032: Box013
+    100034: Box014
+    100036: Box015
+    100038: Box016
+    100040: CapsuleBottomLeft
+    100042: CapsuleBottomRight
+    100044: CapsuleBottomRight001
+    100046: CapsuleBottomRight002
+    100048: CapsuleLeft
+    100050: CapsuleRight
+    100052: CapsuleUpper
+    100054: CapsuleUpper 1
+    100056: CapsuleUpper 2
+    100058: ChamferCyl002
+    100060: ChamferCyl004
+    100062: ChamferCyl005
+    100064: ChamferCyl006
+    100066: ChamferCyl007
+    100068: Cylinder003
+    100070: Cylinder004
+    100072: Cylinder005
+    100074: Cylinder006
+    100076: Cylinder007
+    100078: Cylinder008
+    100080: Cylinder009
+    100082: Cylinders
+    100084: Head
+    100086: headblack
+    100088: headblack001
+    100090: HeadLeft
+    100092: HeadLeft001
+    100094: Line013
+    100096: Line014
+    100098: Line015
+    100100: Line016
+    100102: Line017
+    100104: Line018
+    100106: Line019
+    100108: Line020
+    100110: //RootNode
+    100112: MetalBorder
+    100114: MetalBorder001
+    100116: Object
+    100118: Object002
+    100120: Object003
+    100122: Object004
+    100124: SplineBottomLeft
+    100126: SplineBottomLeft001
+    100128: SplineBottomRight001
+    100130: SplineBottomRight002
+    100132: SplineUpper
+    400000: balckInside
+    400002: BaseLights
+    400004: Binaries
+    400006: BinaryLeft
+    400008: BinaryRight
+    400010: Box001
+    400012: Box003
+    400014: Box004
+    400016: Box005
+    400018: Box006
+    400020: Box007
+    400022: Box008
+    400024: Box009
+    400026: Box010
+    400028: Box011
+    400030: Box012
+    400032: Box013
+    400034: Box014
+    400036: Box015
+    400038: Box016
+    400040: CapsuleBottomLeft
+    400042: CapsuleBottomRight
+    400044: CapsuleBottomRight001
+    400046: CapsuleBottomRight002
+    400048: CapsuleLeft
+    400050: CapsuleRight
+    400052: CapsuleUpper
+    400054: CapsuleUpper 1
+    400056: CapsuleUpper 2
+    400058: ChamferCyl002
+    400060: ChamferCyl004
+    400062: ChamferCyl005
+    400064: ChamferCyl006
+    400066: ChamferCyl007
+    400068: Cylinder003
+    400070: Cylinder004
+    400072: Cylinder005
+    400074: Cylinder006
+    400076: Cylinder007
+    400078: Cylinder008
+    400080: Cylinder009
+    400082: Cylinders
+    400084: Head
+    400086: headblack
+    400088: headblack001
+    400090: HeadLeft
+    400092: HeadLeft001
+    400094: Line013
+    400096: Line014
+    400098: Line015
+    400100: Line016
+    400102: Line017
+    400104: Line018
+    400106: Line019
+    400108: Line020
+    400110: //RootNode
+    400112: MetalBorder
+    400114: MetalBorder001
+    400116: Object
+    400118: Object002
+    400120: Object003
+    400122: Object004
+    400124: SplineBottomLeft
+    400126: SplineBottomLeft001
+    400128: SplineBottomRight001
+    400130: SplineBottomRight002
+    400132: SplineUpper
+    2300000: balckInside
+    2300002: BaseLights
+    2300004: Box001
+    2300006: Box003
+    2300008: Box004
+    2300010: Box005
+    2300012: Box006
+    2300014: Box007
+    2300016: Box008
+    2300018: Box009
+    2300020: Box010
+    2300022: Box011
+    2300024: Box012
+    2300026: Box013
+    2300028: Box014
+    2300030: Box015
+    2300032: Box016
+    2300034: CapsuleUpper 2
+    2300036: ChamferCyl002
+    2300038: ChamferCyl004
+    2300040: ChamferCyl005
+    2300042: ChamferCyl006
+    2300044: ChamferCyl007
+    2300046: Cylinder003
+    2300048: Cylinder004
+    2300050: Cylinder005
+    2300052: Cylinder006
+    2300054: Cylinder007
+    2300056: Cylinder008
+    2300058: Cylinder009
+    2300060: headblack
+    2300062: headblack001
+    2300064: Line013
+    2300066: Line014
+    2300068: Line015
+    2300070: Line016
+    2300072: Line017
+    2300074: Line018
+    2300076: Line019
+    2300078: Line020
+    2300080: MetalBorder
+    2300082: MetalBorder001
+    2300084: Object
+    2300086: Object002
+    2300088: Object003
+    2300090: Object004
+    2300092: SplineUpper
+    3300000: balckInside
+    3300002: BaseLights
+    3300004: Box001
+    3300006: Box003
+    3300008: Box004
+    3300010: Box005
+    3300012: Box006
+    3300014: Box007
+    3300016: Box008
+    3300018: Box009
+    3300020: Box010
+    3300022: Box011
+    3300024: Box012
+    3300026: Box013
+    3300028: Box014
+    3300030: Box015
+    3300032: Box016
+    3300034: CapsuleUpper 2
+    3300036: ChamferCyl002
+    3300038: ChamferCyl004
+    3300040: ChamferCyl005
+    3300042: ChamferCyl006
+    3300044: ChamferCyl007
+    3300046: Cylinder003
+    3300048: Cylinder004
+    3300050: Cylinder005
+    3300052: Cylinder006
+    3300054: Cylinder007
+    3300056: Cylinder008
+    3300058: Cylinder009
+    3300060: headblack
+    3300062: headblack001
+    3300064: Line013
+    3300066: Line014
+    3300068: Line015
+    3300070: Line016
+    3300072: Line017
+    3300074: Line018
+    3300076: Line019
+    3300078: Line020
+    3300080: MetalBorder
+    3300082: MetalBorder001
+    3300084: Object
+    3300086: Object002
+    3300088: Object003
+    3300090: Object004
+    3300092: SplineUpper
+    4300000: Cylinder004
+    4300002: Box009
+    4300004: Cylinder003
+    4300006: balckInside
+    4300008: Box016
+    4300010: BaseLights
+    4300012: Box008
+    4300014: Cylinder005
+    4300016: Cylinder006
+    4300018: Cylinder007
+    4300020: Cylinder008
+    4300022: Cylinder009
+    4300024: Box015
+    4300026: Line019
+    4300028: Line020
+    4300030: Object003
+    4300032: Object004
+    4300034: Line017
+    4300036: Line018
+    4300038: Box013
+    4300040: Box012
+    4300042: CapsuleUpper
+    4300044: SplineUpper
+    4300046: Box014
+    4300048: Line013
+    4300050: Line014
+    4300052: Line015
+    4300054: Line016
+    4300056: Object
+    4300058: Object002
+    4300060: Box010
+    4300062: Box011
+    4300064: Box007
+    4300066: headblack001
+    4300068: headblack
+    4300070: Box001
+    4300072: Box006
+    4300074: MetalBorder
+    4300076: Box003
+    4300078: MetalBorder001
+    4300080: Box005
+    4300082: Box004
+    4300084: ChamferCyl002
+    4300086: ChamferCyl007
+    4300088: ChamferCyl004
+    4300090: ChamferCyl006
+    4300092: ChamferCyl005
+    7400000: medPod_open
+    7400002: medPod_close
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: medPod_open
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: balckInside
+        weight: 1
+      - path: BaseLights
+        weight: 1
+      - path: Binaries
+        weight: 1
+      - path: Binaries/BinaryLeft
+        weight: 1
+      - path: Binaries/BinaryLeft/Box003
+        weight: 1
+      - path: Binaries/BinaryLeft/Box006
+        weight: 1
+      - path: Binaries/BinaryLeft/MetalBorder
+        weight: 1
+      - path: Binaries/BinaryRight
+        weight: 1
+      - path: Binaries/BinaryRight/Box004
+        weight: 1
+      - path: Binaries/BinaryRight/Box005
+        weight: 1
+      - path: Binaries/BinaryRight/MetalBorder001
+        weight: 1
+      - path: Box008
+        weight: 1
+      - path: Box009
+        weight: 1
+      - path: Box015
+        weight: 1
+      - path: Box016
+        weight: 1
+      - path: CapsuleLeft
+        weight: 1
+      - path: CapsuleLeft/Box010
+        weight: 1
+      - path: CapsuleLeft/Box011
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/CapsuleBottomRight001
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/CapsuleBottomRight001/Line013
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/CapsuleBottomRight001/Line014
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/Object
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/Object002
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/SplineBottomRight001
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/SplineBottomRight001/Line015
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/SplineBottomRight001/Line016
+        weight: 1
+      - path: CapsuleRight
+        weight: 1
+      - path: CapsuleRight/Box012
+        weight: 1
+      - path: CapsuleRight/Box013
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/CapsuleBottomRight002
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/CapsuleBottomRight002/Line017
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/CapsuleBottomRight002/Line018
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/Object003
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/Object004
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/SplineBottomRight002
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/SplineBottomRight002/Line019
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/SplineBottomRight002/Line020
+        weight: 1
+      - path: CapsuleUpper
+        weight: 1
+      - path: CapsuleUpper/Box014
+        weight: 1
+      - path: CapsuleUpper/CapsuleUpper 1
+        weight: 1
+      - path: CapsuleUpper/CapsuleUpper 1/CapsuleUpper 2
+        weight: 1
+      - path: CapsuleUpper/CapsuleUpper 1/SplineUpper
+        weight: 1
+      - path: Cylinder003
+        weight: 1
+      - path: Cylinder004
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder008
+        weight: 1
+      - path: Cylinder009
+        weight: 1
+      - path: Cylinders
+        weight: 1
+      - path: Cylinders/ChamferCyl002
+        weight: 1
+      - path: Cylinders/ChamferCyl004
+        weight: 1
+      - path: Cylinders/ChamferCyl005
+        weight: 1
+      - path: Cylinders/ChamferCyl006
+        weight: 1
+      - path: Cylinders/ChamferCyl007
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Head/HeadLeft
+        weight: 1
+      - path: Head/HeadLeft/Box001
+        weight: 1
+      - path: Head/HeadLeft/headblack
+        weight: 1
+      - path: Head/HeadLeft001
+        weight: 1
+      - path: Head/HeadLeft001/Box007
+        weight: 1
+      - path: Head/HeadLeft001/headblack001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: medPod_close
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: balckInside
+        weight: 1
+      - path: BaseLights
+        weight: 1
+      - path: Binaries
+        weight: 1
+      - path: Binaries/BinaryLeft
+        weight: 1
+      - path: Binaries/BinaryLeft/Box003
+        weight: 1
+      - path: Binaries/BinaryLeft/Box006
+        weight: 1
+      - path: Binaries/BinaryLeft/MetalBorder
+        weight: 1
+      - path: Binaries/BinaryRight
+        weight: 1
+      - path: Binaries/BinaryRight/Box004
+        weight: 1
+      - path: Binaries/BinaryRight/Box005
+        weight: 1
+      - path: Binaries/BinaryRight/MetalBorder001
+        weight: 1
+      - path: Box008
+        weight: 1
+      - path: Box009
+        weight: 1
+      - path: Box015
+        weight: 1
+      - path: Box016
+        weight: 1
+      - path: CapsuleLeft
+        weight: 1
+      - path: CapsuleLeft/Box010
+        weight: 1
+      - path: CapsuleLeft/Box011
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/CapsuleBottomRight001
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/CapsuleBottomRight001/Line013
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/CapsuleBottomRight001/Line014
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/Object
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/Object002
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/SplineBottomRight001
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/SplineBottomRight001/Line015
+        weight: 1
+      - path: CapsuleLeft/CapsuleBottomLeft/SplineBottomLeft/SplineBottomRight001/Line016
+        weight: 1
+      - path: CapsuleRight
+        weight: 1
+      - path: CapsuleRight/Box012
+        weight: 1
+      - path: CapsuleRight/Box013
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/CapsuleBottomRight002
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/CapsuleBottomRight002/Line017
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/CapsuleBottomRight002/Line018
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/Object003
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/Object004
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/SplineBottomRight002
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/SplineBottomRight002/Line019
+        weight: 1
+      - path: CapsuleRight/CapsuleBottomRight/SplineBottomLeft001/SplineBottomRight002/Line020
+        weight: 1
+      - path: CapsuleUpper
+        weight: 1
+      - path: CapsuleUpper/Box014
+        weight: 1
+      - path: CapsuleUpper/CapsuleUpper 1
+        weight: 1
+      - path: CapsuleUpper/CapsuleUpper 1/CapsuleUpper 2
+        weight: 1
+      - path: CapsuleUpper/CapsuleUpper 1/SplineUpper
+        weight: 1
+      - path: Cylinder003
+        weight: 1
+      - path: Cylinder004
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder008
+        weight: 1
+      - path: Cylinder009
+        weight: 1
+      - path: Cylinders
+        weight: 1
+      - path: Cylinders/ChamferCyl002
+        weight: 1
+      - path: Cylinders/ChamferCyl004
+        weight: 1
+      - path: Cylinders/ChamferCyl005
+        weight: 1
+      - path: Cylinders/ChamferCyl006
+        weight: 1
+      - path: Cylinders/ChamferCyl007
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Head/HeadLeft
+        weight: 1
+      - path: Head/HeadLeft/Box001
+        weight: 1
+      - path: Head/HeadLeft/headblack
+        weight: 1
+      - path: Head/HeadLeft001
+        weight: 1
+      - path: Head/HeadLeft001/Box007
+        weight: 1
+      - path: Head/HeadLeft001/headblack001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

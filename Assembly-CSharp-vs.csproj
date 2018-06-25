@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C510D082-1857-275D-3BCA-F311F2CCB0A3}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_1;UNITY_4_5;UNITY_64;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Doors\doorOpening.cs" />
+     <Compile Include="Assets\Enable_sector_explosion.cs" />
+     <Compile Include="Assets\GUI_tastiera.cs" />
+     <Compile Include="Assets\MedPod\Glass\Reflection.cs" />
+     <Compile Include="Assets\MedPod\PlayMedPodAnimation.cs" />
+     <Compile Include="Assets\Moduli_corridoio\ISTRUZIONI.cs" />
+     <Compile Include="Assets\OVR\OVRImageEffects\OVRImageEffectBase.cs" />
+     <Compile Include="Assets\OVR\OVRImageEffects\OVRLensCorrection.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCamera.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCameraController.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRComponent.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCrosshair.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDevice.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDistortionCamera.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDistortionMesh.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRGUI.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRGamepadController.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRGridCube.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRMagCalibration.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRMainMenu.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRMessenger.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPlayerController.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPresetManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRUtils.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRVisionGuide.cs" />
+     <Compile Include="Assets\Prefabs\BrokenDoorTriggered\Scripts\OpenBrokenDoor.cs" />
+     <Compile Include="Assets\Prefabs\Door\Scripts\OpenDoor.cs" />
+     <Compile Include="Assets\Prefabs\Door\Scripts\OpenVDoor.cs" />
+     <Compile Include="Assets\Scripts\ActivateJetpack2.cs" />
+     <Compile Include="Assets\Scripts\AfterDeath.cs" />
+     <Compile Include="Assets\Scripts\ArrivoCupola.cs" />
+     <Compile Include="Assets\Scripts\Controls.cs" />
+     <Compile Include="Assets\Scripts\Crouch.cs" />
+     <Compile Include="Assets\Scripts\Death.cs" />
+     <Compile Include="Assets\Scripts\Entrata_infermeria.cs" />
+     <Compile Include="Assets\Scripts\ExitSectorB.cs" />
+     <Compile Include="Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Scripts\Explosion_text.cs" />
+     <Compile Include="Assets\Scripts\FlameController.cs" />
+     <Compile Include="Assets\Scripts\Flash.cs" />
+     <Compile Include="Assets\Scripts\MedKitPickUp.cs" />
+     <Compile Include="Assets\Scripts\Movement0g.cs" />
+     <Compile Include="Assets\Scripts\OpenVerticalDoor.cs" />
+     <Compile Include="Assets\Scripts\PickUpBadge.cs" />
+     <Compile Include="Assets\Scripts\PickUpFireExtinguish.cs" />
+     <Compile Include="Assets\Scripts\Raycast.cs" />
+     <Compile Include="Assets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Scripts\ShowControls.cs" />
+     <Compile Include="Assets\Scripts\TimerController.cs" />
+     <Compile Include="Assets\Scripts\Troppo_alto.cs" />
+     <Compile Include="Assets\Scripts\Victory.cs" />
+     <Compile Include="Assets\Scripts\VideoController.cs" />
+     <Compile Include="Assets\Scripts\activate_cables.cs" />
+     <Compile Include="Assets\Scripts\activate_generator.cs" />
+     <Compile Include="Assets\Scripts\cable_pickup.cs" />
+     <Compile Include="Assets\Scripts\cancel_script.cs" />
+     <Compile Include="Assets\Scripts\cinque_script.cs" />
+     <Compile Include="Assets\Scripts\display_text.cs" />
+     <Compile Include="Assets\Scripts\due_script.cs" />
+     <Compile Include="Assets\Scripts\generatorStatus.cs" />
+     <Compile Include="Assets\Scripts\insert_valve.cs" />
+     <Compile Include="Assets\Scripts\instructions_pickup.cs" />
+     <Compile Include="Assets\Scripts\nove_script.cs" />
+     <Compile Include="Assets\Scripts\ok_script.cs" />
+     <Compile Include="Assets\Scripts\otto_script.cs" />
+     <Compile Include="Assets\Scripts\panel_gravity.cs" />
+     <Compile Include="Assets\Scripts\playerInventory.cs" />
+     <Compile Include="Assets\Scripts\quattro_script.cs" />
+     <Compile Include="Assets\Scripts\sei_script.cs" />
+     <Compile Include="Assets\Scripts\sette_script.cs" />
+     <Compile Include="Assets\Scripts\tre_script.cs" />
+     <Compile Include="Assets\Scripts\uno_script.cs" />
+     <Compile Include="Assets\Scripts\zero_script.cs" />
+     <Compile Include="Assets\Scripts\zoom.cs" />
+     <Compile Include="Assets\VLights\Scripts\PostProcess\VLightInterleavedSampling.cs" />
+     <Compile Include="Assets\VLights\Scripts\Util\VLightGeometryUtil.cs" />
+     <Compile Include="Assets\VLights\Scripts\Util\VLightShaderUtil.cs" />
+     <Compile Include="Assets\VLights\Scripts\VLight\VLight.cs" />
+     <Compile Include="Assets\VLights\Scripts\VLight\VLightManager.cs" />
+     <Compile Include="Assets\ValvePickUp.cs" />
+     <Compile Include="Assets\badging.cs" />
+     <Compile Include="Assets\disableCollider.cs" />
+     <Compile Include="Assets\disable_valve_collider.cs" />
+     <Compile Include="Assets\wrong_valve_pick_up.cs" />
+     <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection_Mesh.shader" />
+     <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection_Mesh_CA.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\MedPod\Glass\SurfaceReflection.shader" />
+     <None Include="Assets\VLights\Shaders\Light\Legacy\VolumeLight.shader" />
+     <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection_Mesh_CA_TW.shader" />
+     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\VLights\Shaders\Light\VLightHelperPoint.cginc" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\VLights\Shaders\PostProcess\VolumeLightInterleavedComposite.shader" />
+     <None Include="Assets\VLights\Shaders\Light\VolumeLight Legacy.shader" />
+     <None Include="Assets\VLights\Shaders\Common\RenderDepth.shader" />
+     <None Include="Assets\VLights\Shaders\Light\VolumeLightDepth.shader" />
+     <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection_CA.shader" />
+     <None Include="Assets\VLights\Shaders\PostProcess\Blur.shader" />
+     <None Include="Assets\VLights\Readme.txt" />
+     <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection.shader" />
+     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\VLights\Shaders\Light\VolumeLightPoint Legacy.shader" />
+     <None Include="Assets\VLights\Shaders\PostProcess\SimpleComposite.shader" />
+     <None Include="Assets\VLights\Shaders\Light\Legacy\VolumeLightPoint.shader" />
+     <None Include="Assets\VLights\Shaders\Light\VLightHelper.cginc" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/aloci_000/Desktop/Ultimo funzionante/Progetto_occlusioni/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{4F7A8291-C3AC-4953-52AE-E5E5563E5EDF}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

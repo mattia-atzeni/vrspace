@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: e8b09f73fb8663348b1c59d6e89066e8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arco
+    100002: Cube
+    100004: Cube_001
+    100006: //RootNode
+    100008: Cupola_001
+    100010: Cupola_002
+    100012: Cylinder
+    100014: Cylinder_001
+    100016: Monitors
+    100018: Screens1
+    100020: Screens2
+    100022: Screens3
+    100024: Tavoli_001
+    100026: Text
+    100028: Text_001
+    100030: Text_002
+    100032: Text_003
+    100034: Vetri_001
+    400000: Arco
+    400002: Cube
+    400004: Cube_001
+    400006: //RootNode
+    400008: Cupola_001
+    400010: Cupola_002
+    400012: Cylinder
+    400014: Cylinder_001
+    400016: Monitors
+    400018: Screens1
+    400020: Screens2
+    400022: Screens3
+    400024: Tavoli_001
+    400026: Text
+    400028: Text_001
+    400030: Text_002
+    400032: Text_003
+    400034: Vetri_001
+    2300000: Arco
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Cupola_001
+    2300008: Cupola_002
+    2300010: Cylinder
+    2300012: Cylinder_001
+    2300014: Monitors
+    2300016: Screens1
+    2300018: Screens2
+    2300020: Screens3
+    2300022: Tavoli_001
+    2300024: Text
+    2300026: Text_001
+    2300028: Text_002
+    2300030: Text_003
+    2300032: Vetri_001
+    3300000: Arco
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Cupola_001
+    3300008: Cupola_002
+    3300010: Cylinder
+    3300012: Cylinder_001
+    3300014: Monitors
+    3300016: Screens1
+    3300018: Screens2
+    3300020: Screens3
+    3300022: Tavoli_001
+    3300024: Text
+    3300026: Text_001
+    3300028: Text_002
+    3300030: Text_003
+    3300032: Vetri_001
+    4300000: Text_003
+    4300002: Text_002
+    4300004: Text_001
+    4300006: Text
+    4300008: Cylinder_001
+    4300010: Cylinder
+    4300012: Cupola_002
+    4300014: Monitors
+    4300016: Screens3
+    4300018: Cupola_001
+    4300020: Cube_001
+    4300022: Tavoli_001
+    4300024: Screens2
+    4300026: Screens1
+    4300028: Vetri_001
+    4300030: Cube
+    4300032: Arco
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
